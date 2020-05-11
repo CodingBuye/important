@@ -100,9 +100,7 @@ class MyPromise {
     })
   }
 }
-
-
-
+// 测试
 const p2 = new MyPromise((resolve, reject) => {
   setTimeout(() => {
     resolve(1)
