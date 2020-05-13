@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+}
+img.title {
+  display: block;
+  margin: 100px auto 0;
+  width: 280px;
+  height: 130px;
+}
+
+.show {
+  width: 625px;
+  height: 35px;
+  margin: 20px auto;
+  position: relative;
+}
+
+#text {
+  width: 500px;
+  height: 35px;
+  text-indent: 10px;
+  float: left;
+}
+
+.but {
+  width: 110px;
+  height: 39px;
+  background-color: #00ccff;
+  color: #fff;
+  line-height: 39px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+}
+
+.but:hover {
+  background-color: #0099cc;
+}
+
+.search {
+  width: 502px;
+  border: 1px solid #ddd;
+  display: none;
+  position: absolute;
+  top: 37px;
+}
+
+.search ul li {
+  list-style: none;
+  width: 502px;
+  height:30px;
+  text-indent: 10px;
+  line-height: 30px;
+}
+
+.search ul li a {
+  color:#000;
+  text-decoration: none;
+  display: block;
+}
+
+.search ul li a:hover {
+  background-color: #ddd;
+}
