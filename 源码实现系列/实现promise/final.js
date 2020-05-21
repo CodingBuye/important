@@ -19,9 +19,9 @@ class MyPromise {
           const callback = this._resolveQueue.shift();
           callback(value);
         }
-      }
+      };
       setTimeout(run);
-    }
+    };
 
     let _reject = value => {
       const run = () => {
@@ -33,9 +33,9 @@ class MyPromise {
           const callback = this._rejectQueue.shift();
           callback(value);
         }
-      }
+      };
       setTimeout(run);
-    }
+    };
 
     executor(_resolve, _reject);
   }
@@ -54,7 +54,7 @@ class MyPromise {
         } catch (error) {
           reject(error);
         }
-      }
+      };
 
       const rejectedFn = (value) => {
         try {
@@ -63,7 +63,7 @@ class MyPromise {
         } catch(error) {
           reject(error);
         }
-      }
+      };
 
       switch(this._status) {
         case PENDING:
@@ -124,7 +124,7 @@ class MyPromise {
    * 此实例在 iterable 参数内所有的 promise 都“完成（resolved）”或
    * 参数中不包含 promise 时回调完成（resolve）；
    * 如果参数中  promise 有一个失败（rejected），此实例回调失败（reject），
-   * 失败原因的是第一个失败 promise 的结果。 
+   * 失败原因的是第一个失败 promise 的结果。
    */
   static all(promiseArr) {
     let index = 0;
