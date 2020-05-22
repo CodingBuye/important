@@ -20,7 +20,7 @@
   <div id="container">
 
   </div>
-  <!-- <script src="https://cdn.bootcss.com/underscore.js/1.9.1/underscore.js"></script> -->
+  <script src="https://cdn.bootcss.com/underscore.js/1.9.1/underscore.js"></script>
   <script src="./debounce.js"></script>
   <script>
     let count = 0;
@@ -28,9 +28,9 @@
     function doSomething() {
       container.innerHTML = count++;
     }
-    
+
     // container.onmousemove = _.debounce(doSomething, 300, true);
-    container.onmousemove = debounce(doSomething, 300, true)
+    container.onmousemove = debounce(doSomething, 300, true);
 
     // 防抖：
     // 事件响应函数在一段时间后才执行，

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>实现v-model</title>
+</head>
+<body>
+<div>
+  <input v-model="msg"/>
+  <!--等价于-->
+  <input :value="msg @input="msg=$event.target.value"/>
+  <!--
+    自html5开始,input每次输入都会触发oninput事件，所以输入时input的内容会绑定到sth中，于是sth的值就被改变;
+    //$event 指代当前触发的事件对象;
+    //$event.target 指代当前触发的事件对象的dom;
+    //$event.target.value 就是当前dom的value值;
+    //在@input方法中，value => sth;
+    //在:value中,sth => value;
+  -->
+</div>
+<script src="./vue.js"></script>
+<script>
+  let vm = new Vue({
+    data: {
+      msg: '你好'
+    }
+  })
+</script>
+</body>
+</html>
