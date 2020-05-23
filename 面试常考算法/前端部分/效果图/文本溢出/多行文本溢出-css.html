@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>多行文本溢出-css</title>
+	<style type="text/css">
+		p {
+			-webkit-line-clamp: 2; /*用来限制在一个块元素显示的文本的行数, 2 表示最多显示 2 行。 为了实现该效果，它需要组合其他的WebKit属性*/
+			display: -webkit-box; /*和 1 结合使用，将对象作为弹性伸缩盒子模型显示 */
+			overflow: hidden; /*文本溢出限定的宽度就隐藏内容*/
+			-webkit-box-orient: vertical;/*和 1 结合使用 ，设置或检索伸缩盒对象的子元素的排列方式*/
+		}
+		/*
+			优点:
+				响应式截断
+				文本溢出范围才显示省略号，否则不显示省略号
+				省略号显示位置刚好
+			缺点：
+				兼容性一般： -webkit-line-clamp 属性只有 WebKit 内核的浏览器才支持
+			适用场景：
+				多适用于移动端页面，因为移动设备浏览器更多是基于 WebKit 内核
+		*/
+	</style>
+</head>
+<body>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, maxime consequatur perferendis sint iusto dignissimos in excepturi id maiores facere recusandae eligendi, voluptates, iste aspernatur eveniet natus, odio libero sunt?
+</p>
+</body>
+</html>

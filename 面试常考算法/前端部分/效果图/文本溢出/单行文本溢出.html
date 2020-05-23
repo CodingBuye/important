@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>单行文本溢出</title>
+	<style type="text/css">
+		p {
+			overflow: hidden;       /*文字长度超出限定宽度，则隐藏超出的内容*/
+			white-space: nowrap;    /*设置文字在一行显示，不能换行*/
+			text-overflow: ellipsis;/*规定当文本溢出时，显示省略符号来代表被修剪的文本*/
+		}
+		/**
+		* 优点：
+			无兼容问题
+			响应式拦截
+			文本溢出范围才显示省略号，否则不显示省略号
+			省略号位置显示刚好
+
+		  缺点：
+			只支持单行文本截断
+
+		  适用场景：
+		  	适用于单行文本溢出显示省略号的情况
+		*/
+	</style>
+</head>
+<body>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias libero a, officiis eos. Quae rem provident fugit laboriosam ducimus error maiores quisquam necessitatibus doloribus, asperiores facilis quis autem commodi! Possimus!
+</p>
+</body>
+</html>
