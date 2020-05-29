@@ -4,12 +4,19 @@ function TreeNode(val) {
   this.right = null;
 }
 
-var preorderTraversal = function(root) {
-  if(!root) return [];
+var inorderTraversal = function(root) {
   let res = [];
-  res = res.concat(preorderTraversal(root.left));
-  res.push(root.val);
-  res = res.concat(preorderTraversal(root.right));
+  let stack = [];
+  let p = root;
+  while(p !== null || stack.length > 0) {
+    while(p !== null) {
+      stack.push(p);
+      p = p.left;
+    }
+    p = stack.pop();
+    res.push(p.val);
+    p = p.right;
+  }
   return res;
 }
 
@@ -18,4 +25,4 @@ let node1 = new TreeNode(2);
 let node2 = new TreeNode(3);
 root.right = node1;
 node1.left = node2;
-console.log(preorderTraversal(root));
+console.log(inorderTraversal(root));
