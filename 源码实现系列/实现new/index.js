@@ -12,10 +12,10 @@ function Person(name, age, job) {
 	}
 }
 
-var person = new Person('Nicholas', 29, 'Front-end developer'); 
-console.log(person.name) // Nicholas
-person.sayName();        // Nicholas
-console.log(person.__proto__ === Person.prototype);   // true
+// var person = new Person('Nicholas', 29, 'Front-end developer'); 
+// console.log(person.name) // Nicholas
+// person.sayName();        // Nicholas
+// console.log(person.__proto__ === Person.prototype);   // true
 
 
 function myNew() {
@@ -24,3 +24,6 @@ function myNew() {
 	var result = constr.apply(obj, arguments);
 	return result instanceof Object ? result : obj;
 }
+
+var person = myNew('Nicholas', 29, 'Front-end developer');
+console.log(person.name);
