@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>防抖</title>
+</head>
+<body>
+	<input type="text" class="search"/>
+	<button class="cancel-btn">取消事件</button>
+
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+	<script src="./debounce.js"></script>
+	<script type="text/javascript">
+		// 1. 获取输入框
+		var search = document.querySelector(".search");
+		// 2. 监听输入内容，发送ajax请求
+		// 2.1 定义一个监听函数
+		var counter = 0;
+		function searchChange(e) {
+			counter++;
+			console.log("发送"+counter+"网络请求");
+			console.log(this);
+			console.log(e.target.value);
+		}
+
+		// 绑定oninput事件
+		// search.oninput = _.debounce(searchChange, 3000);
+
+		var _searchChange = debounce(searchChange, 3000, false);
+		search.oninput = _searchChange;
+
+		var cancelBtn = document.querySelector(".cancel-btn");
+		cancelBtn.onclick = function(event) {
+			_searchChange.cancel();
+		}
+	</script>
+</body>
+</html>
