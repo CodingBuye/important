@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>节流</title>
+</head>
+<body>
+	<input class="search" type="text">
+  
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+  <script src="./throttle.js"></script>
+  <script>
+    // 1.获取输入框
+    var search = document.querySelector(".search");
+
+    // 2.监听输入内容,发送ajax请求
+    // 2.1.定义一个监听函数
+    var counter = 0;
+    function searchChange() {
+      counter++;
+      console.log("发送"+ counter +"网络请求");
+    }
+
+    // var _lodashSearchChange = _.throttle(searchChange, 3000)
+    var _lodashSearchChange = throttle(searchChange, 3000,  {leading: false, trailing: true})
+
+    // 绑定oninput
+    search.oninput = _lodashSearchChange
+  </script>
+</body>
+</html>
