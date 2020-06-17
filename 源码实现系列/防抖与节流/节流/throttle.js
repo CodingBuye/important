@@ -20,7 +20,7 @@ function throttle(func, wait, options) {
     var now = Date.now();
     if(!previous && options.leading === false) previous = now;
     var remaining = wait - (now-previous);
-    if(remaining <= 0) {
+    if(remaining <= 0 || remaining > wait) {
       if(timer) {
         clearTimeout(timer);
         timer = null;
