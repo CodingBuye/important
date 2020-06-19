@@ -30,6 +30,7 @@ function throttle(func, wait, options) {
     } else if(!timer && options.trailing !== false) {
       timer = setTimeout(later, remaining);
     }
+    return result;
   }
 
   throttled.cancel = function() {
