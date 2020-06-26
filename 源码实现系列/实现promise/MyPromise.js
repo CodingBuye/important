@@ -49,7 +49,7 @@ class MyPromise {
           let x = resolveFn(val);
           x instanceof MyPromise ? x.then(resolve,reject) : resolve(x);
         } catch(error) {
-          resolve(error);
+          reject(error);
         }
       };
 
