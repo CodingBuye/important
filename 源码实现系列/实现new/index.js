@@ -25,5 +25,12 @@ function myNew() {
 	return result instanceof Object ? result : obj;
 }
 
-var person = myNew('Nicholas', 29, 'Front-end developer');
+var person = myNew(Person, 'Nicholas', 29, 'Front-end developer');
 console.log(person.name);
+
+function myNew() {
+	var constr = Array.prototype.shift.call(arguments);
+	var obj = Object.create(constr.prototype);
+	var result = constr.apply(obj, arguments);
+	return result instanceof Object ? result : obj;
+}
