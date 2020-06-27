@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>图片懒加载</title>
+	<style type="text/css">
+		.img-list {
+			width: 80%;
+			margin: 0 auto;
+			background-color: pink;
+		}
+		.img-item {
+			width: 100%;
+			background-color: #99997a;
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="img-list">
+		<img data-src="./image/1.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/2.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/3.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/4.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/5.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/6.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/7.png" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/8.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/9.jpg" src="./image/loading.gif" alt="" class="img-item">
+		<img data-src="./image/10.jpg" src="./image/loading.gif" alt="" class="img-item">
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+			console.log("Hello World");
+			// 获取图片列表
+			var imgList = document.getElementsByClassName("img-list")[0].children;
+			console.log(imgList);
+			// 滚动触发函数
+			window.onscroll = function() {
+				lazyLoad(imgList);
+			};
+
+
+			// 获取元素到浏览器顶部的距离
+			function getTop(e) {
+				return e.offsetTop;
+			}
+
+			// 懒加载实现
+			function lazyLoad(imgs) {
+				var viewHeight = window.innerHeight; // 获取可视高度(屏幕高度)
+				var scrollHeight = document.documentElement.scrollTop || document.body.scrollTop; // 获取滚动的值
+				for(var i=0;i<imgs.length;i++){
+					if(viewHeight+scrollHeight > getTop(imgs[i])) {
+						(function(index){
+							setTimeout(function(){
+								var temp = new Image();
+								temp.src = imgs[index].getAttribute('data-src');
+								temp.onload = function() {
+									imgs[index].setAttribute("src", temp.src);
+									imgs[index].removeAttribute("data-src");
+								}
+							}, 1000);
+						})(i);
+					}
+				}
+			}
+		}
+	</script>
+</body>
+</html>
