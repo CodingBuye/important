@@ -42,7 +42,7 @@ proxy('http://www.domain2.com/b.html', function(data){
 
 ```
 
-### proxy.html：(http://www.domain1.com/proxy....
+### proxy.html：(http://www.domain1.com/proxy....)
 中间代理页，与a.html同域，内容为空即可。
 
 ### b.html：(http://www.domain2.com/b.html)
