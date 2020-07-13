@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>高度自适应</title>
+  <style type="text/css">
+    html, body { height: 100%; padding: 0; margin: 0; }
+    /* 方案一 */
+    /* .outer { height: 100%; padding: 100px 0 0; box-sizing: border-box; }
+    .A { height: 100px; margin: -100px 0 0; background-color: #bbe8f2; }
+    .B { height: 100%; background-color: #D9C666; } */
+
+    /* 方案二 */
+    /* .outer { height: 100%; padding: 100px 0 0; box-sizing: border-box;position: relative; }
+    .A { height: 100px; background: #BBE8F2; position: absolute; top: 0 ; left: 0 ; width: 100%; }
+    .B { height: 100%; background: #D9C666; } */
+
+    /* 方案三 */
+    .outer { height: 100%; position: relative; }
+    .A { height: 100px; background: #BBE8F2; }
+    .B { background: #D9C666; width: 100%; position: absolute; top: 100px ; left: 0 ; bottom: 0; }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="A"></div>
+    <div class="B"></div>
+  </div>
+</body>
+</html>
