@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两栏布局-flex</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .wrap {
+            display: flex;
+        }
+        .left {
+            height: 200px;
+            background-color: purple;
+            flex: 0 0 200px;
+        }
+        .right {
+            height: 200px;
+            background-color: skyblue;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
