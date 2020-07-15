@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两栏布局-inlineblock和calc函数</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .wrap {
+            overflow: hidden;
+            width: 100%;
+            font-size: 0;
+        }
+        .left {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            font-size: 20px;
+        }
+        .right {
+            display: inline-block;
+            width: calc(100% - 200px);
+            height: 200px;
+            background-color: skyblue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
