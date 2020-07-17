@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>父级div定义overflow:auto</title>
+    <!-- 
+        原理：必须定义width或zoom：1，同时不能定义height，使用overflow：auto时，浏览器会自动检查浮动区域的高度
+        优点：简单，代码少，浏览器支持好
+        缺点：内部宽高超过父级div时，会出现滚动条
+        建议：不推荐使用，除非需要出现滚动条或者确保不会滚动条的时候才使用。
+     -->
+    <style type="text/css">
+        .div1{
+            background:#000080;
+            border:1px solid red;
+            /*解决方案*/
+            width:98%;
+            overflow: auto;
+        }
+        .div2{
+            background:#800080;
+            border:1px solid red;
+            height:100px;
+            margin-top:10px;
+        }
+        .left{
+            float:left;
+            width:20%;
+            height:200px;
+            background:#DDD
+        }
+        .right{
+            float:right;
+            width:30%;
+            height:80px;
+            background:#DDD
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+        <div class="clearfloat"></div>
+    </div>
+    <div class="div2">
+        div2
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用after伪元素和zoom来清除浮动</title>
+    <!-- 
+        原理：IE8以上和非IE浏览器才支持:after，原理和方法2相似，zoom可解决IE6、IE7浮动问题
+        优点：浏览器支持好，不容易出现怪问题
+        缺点：代码多，需要两句代码结合使用才能让主流浏览器支持，使用zoom：1出发hasLayout
+        建议：推荐使用，建议定义公共类，来减少css代码
+     -->
+    <style type="text/css">
+        .div1{
+            background:#000080;
+            border:1px solid red;
+        }
+        .div2{
+            background:#800080;
+            border:1px solid red;
+            height:100px;
+            margin-top:10px;
+        }
+        .left{
+            float:left;
+            width:20%;
+            height:200px;
+            background:#DDD
+        }
+        .right{
+            float:right;
+            width:30%;
+            height:80px;
+            background:#DDD
+        }
+        /*解决方案*/
+        .clearfloat::after {
+            display: block;
+            clear: both;
+            content: '';
+            visibility: hidden;
+            height: 0;
+        }
+        .clearfloat {
+            zoom: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+        <div class="clearfloat"></div>
+    </div>
+    <div class="div2">
+        div2
+    </div>
+</body>
+</html>
