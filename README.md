@@ -14,6 +14,7 @@
 - [JS事件循环](https://juejin.im/post/5e22b391f265da3e204d8c14)
 - [es6 promise generator函数的操作](https://juejin.im/post/5e4613b36fb9a07ccc45e339)
 - [AJAX原理及常见面试题](https://zhuanlan.zhihu.com/p/108686888)
+- [ES6](https://es6.ruanyifeng.com/)
 
 ## 打包工具
 
