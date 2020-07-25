@@ -21,6 +21,12 @@
 
 - [Virtual DOM是如何提升页面渲染效率的](https://mp.weixin.qq.com/s/bS6HnWmCx385LRy9V3k3zg)
 
+## 安全
+
+- [Web安全之CSRF实例解析](https://mp.weixin.qq.com/s/gifFtpk0Iw-0_5ccK83H8g)
+- [web安全之XSS实例解析](https://mp.weixin.qq.com/s/wBrkNRQSFG7vYkQwcHkLrw)
+- [HTTPS是如何保证安全的](https://mp.weixin.qq.com/s/UA-NfJWImOLvoiMTDerBQA)
+
 ## 打包工具
 
 - [webpack原理](https://juejin.im/entry/5b0e3eba5188251534379615)
