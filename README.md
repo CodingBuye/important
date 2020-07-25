@@ -17,6 +17,10 @@
 - [ES6教程](https://es6.ruanyifeng.com/)
 - [ES2020 系列：新增基本数据类型 BigInt](https://juejin.im/post/5f1ad4ba6fb9a07e83521a69)
 
+## Vue
+
+- [Virtual DOM是如何提升页面渲染效率的](https://mp.weixin.qq.com/s/bS6HnWmCx385LRy9V3k3zg)
+
 ## 打包工具
 
 - [webpack原理](https://juejin.im/entry/5b0e3eba5188251534379615)
