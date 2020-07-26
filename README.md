@@ -16,6 +16,7 @@
 - [AJAX原理及常见面试题](https://zhuanlan.zhihu.com/p/108686888)
 - [ES6教程](https://es6.ruanyifeng.com/)
 - [ES2020 系列：新增基本数据类型 BigInt](https://juejin.im/post/5f1ad4ba6fb9a07e83521a69)
+- [js 循环引用的解析和解决方法](https://blog.csdn.net/Shauna_Wu/article/details/79938692)
 
 ## Vue
 
