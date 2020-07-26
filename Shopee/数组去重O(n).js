@@ -1,3 +1,6 @@
+/**
+ * https://segmentfault.com/a/1190000016418021
+ */
 function arrayNoRepeat(arr) {
     let map = new Map();
     let res = [];
