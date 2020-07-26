@@ -17,7 +17,7 @@ function jsonp({url, params, callback}) {
 	})
 }
 
-// jQuery的JSONP行hi
+// jQuery的JSONP
 $.ajax({
 	url: 'http://cross.domain.com/jsonpServerResponse',
 	dataType: 'jsonp',
