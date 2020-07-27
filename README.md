@@ -15,6 +15,7 @@
 - [es6 promise generator函数的操作](https://juejin.im/post/5e4613b36fb9a07ccc45e339)
 - [AJAX原理及常见面试题](https://zhuanlan.zhihu.com/p/108686888)
 - [ES6教程](https://es6.ruanyifeng.com/)
+- [CommonJS和ES Module的区别](https://es6.ruanyifeng.com/#docs/module-loader)
 - [ES2020 系列：新增基本数据类型 BigInt](https://juejin.im/post/5f1ad4ba6fb9a07e83521a69)
 - [js 循环引用的解析和解决方法](https://blog.csdn.net/Shauna_Wu/article/details/79938692)
 
@@ -36,4 +37,9 @@
 ## 面试题整理
 
 - [前端面试题整理（三）简单算法](https://www.nowcoder.com/discuss/420121?type=all&order=time&pos=&page=1&channel=666&source_id=search_all)
+
+## 跨域
+
 - [前端常见跨域解决方案（全）](https://www.jianshu.com/p/1dae6e1680ff)
+- [JSONP的缺点](https://blog.csdn.net/z69183787/article/details/19191385)
+- [如何让cookie跨域携带](https://juejin.im/post/5c0ce70be51d4522ad6e53df)
