@@ -40,6 +40,13 @@
 
 ## 跨域
 
-- [前端常见跨域解决方案（全）](https://www.jianshu.com/p/1dae6e1680ff)
 - [JSONP的缺点](https://blog.csdn.net/z69183787/article/details/19191385)
 - [如何让cookie跨域携带](https://juejin.im/post/5c0ce70be51d4522ad6e53df)
+
+## 操作系统
+
+- [程序员不得不了解的硬核知识大全](https://juejin.im/post/5e1e8ca2f265da3e11359d2a)
+
+## 计算机网络
+
+- [CDN原理](https://www.jianshu.com/p/1dae6e1680ff)
