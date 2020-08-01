@@ -38,6 +38,6 @@ read.on('line', function(line) {
 
 function helper(arr, P) {
     let max = 0;
-
+    // TODO: 核心函数
     
 }
