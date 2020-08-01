@@ -20,7 +20,13 @@ var solution = function(num) {
     return res;
 }
 
+var test = function(num) {
+    return num.toFixed(2).toLocaleString();
+}
+
 // 测试
 console.log(solution(123456));
 console.log(solution(12));
 console.log(solution(1234));
+
+console.log(test(12345678.996));
