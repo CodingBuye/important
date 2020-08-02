@@ -1,3 +1,5 @@
+// TODO：双链表的设计报错
+
 function ListNode(val) {
     this.val = val;
     this.next = null;
@@ -76,6 +78,7 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
     let temp = p.next;
     p.next = temp.next;
     temp.next.prev = p;
-    this.size += 1;
+    this.size -= 1;
     return temp;
 }
+
