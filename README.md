@@ -54,3 +54,6 @@
 ## 数据库
 
 - [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+
+## CPU缓存
+- [与程序员相关的CPU缓存知识](https://coolshell.cn/articles/20793.html)
