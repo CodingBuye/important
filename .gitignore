@@ -8,3 +8,4 @@ logs/
 .project
 bin/
 ${*}
+node_modules/
