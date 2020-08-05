@@ -52,6 +52,7 @@
 
 - [CDN原理](https://www.jianshu.com/p/1dae6e1680ff)
 - [一文讲透 “进程、线程、协程”](https://mp.weixin.qq.com/s/HeoVzVIZ7Vu4gwjzyyiQ-g)
+- [解读HTTP/2与HTTP/3 的新特性](https://mp.weixin.qq.com/s/XVaQH7vE4YOuZyYgS6aGQg)
 
 ## 数据库
 
