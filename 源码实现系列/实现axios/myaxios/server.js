@@ -21,3 +21,8 @@ app.get("/getTest", function(request, response) {
 var server = app.listen(5000, function() {
     console.log("服务器启动")
 })
+
+
+/**
+ * 参考连接：https://juejin.im/post/6856706569263677447
+ */
