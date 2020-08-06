@@ -18,6 +18,7 @@
 - [CommonJS和ES Module的区别](https://es6.ruanyifeng.com/#docs/module-loader)
 - [ES2020 系列：新增基本数据类型 BigInt](https://juejin.im/post/5f1ad4ba6fb9a07e83521a69)
 - [js 循环引用的解析和解决方法](https://blog.csdn.net/Shauna_Wu/article/details/79938692)
+- [弄懂浏览器Event Loop和node的Even Loop的区别](https://mp.weixin.qq.com/s/1jaqFlydi8qGws9hgO8XYg)
 
 ## Vue
 
@@ -43,6 +44,7 @@
 
 - [JSONP的缺点](https://blog.csdn.net/z69183787/article/details/19191385)
 - [如何让cookie跨域携带](https://juejin.im/post/5c0ce70be51d4522ad6e53df)
+- [新的跨域策略：使用COOP、COEP为浏览器创建更安全的环境](https://mp.weixin.qq.com/s/CLPz6HmYIyfpYdccTGfRcg)
 
 ## 操作系统
 
