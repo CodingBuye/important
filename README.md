@@ -23,6 +23,7 @@
 ## Vue
 
 - [Virtual DOM是如何提升页面渲染效率的](https://mp.weixin.qq.com/s/bS6HnWmCx385LRy9V3k3zg)
+- [图解 Vue 响应式原理](https://mp.weixin.qq.com/s/Cyu4jDW5v81uvt3S-Rw2aQ)
 
 ## 安全
 
