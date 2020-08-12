@@ -35,3 +35,14 @@
   |--src
         01-basicusage.js
   ```
+
+### 导入Snabbdom
+
+- 文档地址: [https://github.com/snabbdom/snabbdom](https://github.com/snabbdom/snabbdom)
+- 安装Snabbdom
+  
+  ```js
+  yarn add snabbdom
+  ```
+
+- 导入Snaddom(参考文档的样例)

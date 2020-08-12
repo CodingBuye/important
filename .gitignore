@@ -9,3 +9,5 @@ logs/
 bin/
 ${*}
 node_modules/
+.cache
+dist/
