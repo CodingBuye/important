@@ -43,6 +43,7 @@
 - [前端面试题整理（三）简单算法](https://www.nowcoder.com/discuss/420121?type=all&order=time&pos=&page=1&channel=666&source_id=search_all)
 - [面试题：在页面插入10000个元素，如何进行优化？](https://blog.csdn.net/qq_42033567/article/details/107218985)
 - [【前端】前端面试题整理](https://www.cnblogs.com/haoyijing/p/5789348.html)
+- [微信订阅号&服务号团队招前端了(一年经验以上即可，附面试题参考)](https://mp.weixin.qq.com/s/F3PmR1mXRay9P6fg0Uo0Jg)
 
 ## 跨域
 
