@@ -13,6 +13,7 @@
 - [JS事件流](https://juejin.im/entry/5826ba9d0ce4630056f85e07)
 - [JS事件循环](https://juejin.im/post/5e22b391f265da3e204d8c14)
 - [es6 promise generator函数的操作](https://juejin.im/post/5e4613b36fb9a07ccc45e339)
+- [总结面试中 promise 相关题目的套路](https://mp.weixin.qq.com/s/j9NLGdZOvrAuSxb6RnHthw)
 - [AJAX原理及常见面试题](https://zhuanlan.zhihu.com/p/108686888)
 - [ES6教程](https://es6.ruanyifeng.com/)
 - [CommonJS和ES Module的区别](https://es6.ruanyifeng.com/#docs/module-loader)
@@ -22,6 +23,7 @@
 
 ## Vue
 
+- [Vue源码系列-Vue中文社区](https://vue-js.com/learn-vue/)
 - [Virtual DOM是如何提升页面渲染效率的](https://mp.weixin.qq.com/s/bS6HnWmCx385LRy9V3k3zg)
 - [图解 Vue 响应式原理](https://mp.weixin.qq.com/s/Cyu4jDW5v81uvt3S-Rw2aQ)
 
