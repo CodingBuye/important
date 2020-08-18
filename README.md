@@ -21,6 +21,15 @@
 - [js 循环引用的解析和解决方法](https://blog.csdn.net/Shauna_Wu/article/details/79938692)
 - [弄懂浏览器Event Loop和node的Even Loop的区别](https://mp.weixin.qq.com/s/1jaqFlydi8qGws9hgO8XYg)
 
+## NodeJS
+
+- [《吊打面试官》系列 Node.js 必知必会必问！！](https://mp.weixin.qq.com/s/94wxm57cd3fS96gixVAxMA)
+- [《吊打面试官》系列 Node.js 全栈秒杀系统](https://mp.weixin.qq.com/s/uWeAsJ-P253je15A49uKIQ)
+- [《吊打面试官》系列 深入Node.js多进程底层原理（字节跳动被问）](https://mp.weixin.qq.com/s/wBiBZcdNobDoZbk-cLLyfw)
+- [《大前端进阶Node.js》系列 内存泄漏（一）](https://mp.weixin.qq.com/s/7d8KE7Iz8vFi8hA3YeXRUg)
+- [《大前端进阶 Node.js》系列 异步非阻塞（上）](https://mp.weixin.qq.com/s/gEhIa1OW_R61fb4RA6GE0g)
+- [《大前端进阶 Node.js》系列 异步非阻塞（下）](https://mp.weixin.qq.com/s/G_NMZ8MqFo9FTC0FLcOxCw)
+
 ## Vue
 
 - [Vue源码系列-Vue中文社区](https://vue-js.com/learn-vue/)
@@ -66,6 +75,8 @@
 - [你不知道的 WebSocket](https://mp.weixin.qq.com/s/hTGn-td7IH3iesf30dyHIw)
 - [动画：深入浅出从根上理解 HTTP 缓存机制及原理！](https://mp.weixin.qq.com/s/M8Ew7xKStiGEnhGgCq5YPA)
 - [「查缺补漏」巩固你的HTTP知识体系](https://mp.weixin.qq.com/s/-F_rePfdhU29wxsH6nWNuQ)
+- [面试官：HTTPS就安全了吗？会被抓包吗？我竟然回答不上来...](https://mp.weixin.qq.com/s/c2vKhW5_uFnyH_sBlRvMcw)
+- [《大前端进阶 安全》系列 全网最透彻HTTPS（面试常问）](https://mp.weixin.qq.com/s/uUGy94fp3x8khCTR0gZeJA)
 
 ## 数据库
 
