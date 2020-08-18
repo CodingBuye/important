@@ -54,6 +54,8 @@
 - [【前端】前端面试题整理](https://www.cnblogs.com/haoyijing/p/5789348.html)
 - [微信订阅号&服务号团队招前端了(一年经验以上即可，附面试题参考)](https://mp.weixin.qq.com/s/F3PmR1mXRay9P6fg0Uo0Jg)
 - [30 道 Vue 面试题，自测Vue掌握程度 | 内含详细讲解](https://mp.weixin.qq.com/s/Zg3ePb5xw7eGfbmIxhzpOA)
+- [一文搞懂主流的扫码登录技术原理](https://mp.weixin.qq.com/s/cRTHgG6C8s1vE3LBOYKSiw)
+- [快捷支付的本质：拆解扫码支付的实现原理](http://www.woshipm.com/pd/3012547.html)
 
 ## 跨域
 
