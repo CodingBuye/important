@@ -10,6 +10,7 @@
 
 ## JavaScript
 
+- [为什么 0.1 + 0.2 = 0.300000004](https://mp.weixin.qq.com/s/r_0lJ0kS6ujXfrO-weD8ZQ)
 - [JS事件流](https://juejin.im/entry/5826ba9d0ce4630056f85e07)
 - [JS事件循环](https://juejin.im/post/5e22b391f265da3e204d8c14)
 - [es6 promise generator函数的操作](https://juejin.im/post/5e4613b36fb9a07ccc45e339)
@@ -36,6 +37,7 @@
 - [Vue源码系列-Vue中文社区](https://vue-js.com/learn-vue/)
 - [Virtual DOM是如何提升页面渲染效率的](https://mp.weixin.qq.com/s/bS6HnWmCx385LRy9V3k3zg)
 - [图解 Vue 响应式原理](https://mp.weixin.qq.com/s/Cyu4jDW5v81uvt3S-Rw2aQ)
+- [图解 Vue 异步更新原理](https://mp.weixin.qq.com/s/oyp9hgFbJszF94DihY_m_Q)
 
 ## 安全
 
