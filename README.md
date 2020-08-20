@@ -59,6 +59,7 @@
 - [一文搞懂主流的扫码登录技术原理](https://mp.weixin.qq.com/s/cRTHgG6C8s1vE3LBOYKSiw)
 - [快捷支付的本质：拆解扫码支付的实现原理](http://www.woshipm.com/pd/3012547.html)
 - [22个ES6面试、复习干货知识点汇总](https://mp.weixin.qq.com/s/g6kSOdHShWfFEAKlFegjfg)
+- [从斐波那契数列中解析优化递归与循环](https://juejin.im/post/6844904003243868173)
 
 ## 跨域
 
