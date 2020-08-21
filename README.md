@@ -67,6 +67,7 @@
 
 ## 跨域
 
+- [浏览器的同源策略详解](https://www.jianshu.com/p/f4fc1ce49956)
 - [JSONP的缺点](https://blog.csdn.net/z69183787/article/details/19191385)
 - [如何让cookie跨域携带](https://juejin.im/post/5c0ce70be51d4522ad6e53df)
 - [新的跨域策略：使用COOP、COEP为浏览器创建更安全的环境](https://mp.weixin.qq.com/s/CLPz6HmYIyfpYdccTGfRcg)
