@@ -17,7 +17,7 @@ function FibonacciWithMemory(n, memory) {
     if(!memory) memory = [];
     if(n < 2) return n;
     if(!memory[n]) {
-        memory[n] = FibonacciWithMemory(n-1, memory) + FibonacciWithMemory(n-1, memory);
+        memory[n] = FibonacciWithMemory(n-1, memory) + FibonacciWithMemory(n-2, memory);
     }
     return memory[n];
 }
