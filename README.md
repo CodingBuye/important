@@ -71,6 +71,7 @@
 - [JSONP的缺点](https://blog.csdn.net/z69183787/article/details/19191385)
 - [如何让cookie跨域携带](https://juejin.im/post/5c0ce70be51d4522ad6e53df)
 - [新的跨域策略：使用COOP、COEP为浏览器创建更安全的环境](https://mp.weixin.qq.com/s/CLPz6HmYIyfpYdccTGfRcg)
+- [前端常见跨域解决方案（全）](https://www.jianshu.com/p/ad799a7801e1)
 
 ## 操作系统
 
