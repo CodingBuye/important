@@ -12,6 +12,8 @@
 
 ## JavaScript
 
+- [JavaScript进阶-执行上下文(理解执行上下文一篇就够了)](https://juejin.im/post/6844903983438381069)
+- [JavaScript进阶-执行上下文栈和变量对象(一周一更)](https://juejin.im/post/6844904033308655623)
 - [再来40道this面试题酸爽继续(1.2w字用手整理)](https://juejin.im/post/6844904083707396109)
 - [为什么 0.1 + 0.2 = 0.300000004](https://mp.weixin.qq.com/s/r_0lJ0kS6ujXfrO-weD8ZQ)
 - [JS事件流](https://juejin.im/entry/5826ba9d0ce4630056f85e07)
