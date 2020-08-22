@@ -12,6 +12,7 @@
 
 ## JavaScript
 
+- [再来40道this面试题酸爽继续(1.2w字用手整理)](https://juejin.im/post/6844904083707396109)
 - [为什么 0.1 + 0.2 = 0.300000004](https://mp.weixin.qq.com/s/r_0lJ0kS6ujXfrO-weD8ZQ)
 - [JS事件流](https://juejin.im/entry/5826ba9d0ce4630056f85e07)
 - [JS事件循环](https://juejin.im/post/5e22b391f265da3e204d8c14)
@@ -55,6 +56,7 @@
 
 ## 面试题整理
 
+- [要就来45道Promise面试题一次爽到底(1.1w字用心整理)](https://juejin.im/post/6844904077537574919#comment)
 - [前端面试题整理（三）简单算法](https://www.nowcoder.com/discuss/420121?type=all&order=time&pos=&page=1&channel=666&source_id=search_all)
 - [面试题：在页面插入10000个元素，如何进行优化？](https://blog.csdn.net/qq_42033567/article/details/107218985)
 - [【前端】前端面试题整理](https://www.cnblogs.com/haoyijing/p/5789348.html)
