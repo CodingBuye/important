@@ -82,6 +82,7 @@
 ## 计算机网络
 
 - [CDN原理](https://www.jianshu.com/p/1dae6e1680ff)
+- [前端必会 - CDN加速原理](https://mp.weixin.qq.com/s/eSpLgQPuvSfTKnwZLUlocQ)
 - [HTTP Cookie](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies)
 - [一文讲透 “进程、线程、协程”](https://mp.weixin.qq.com/s/HeoVzVIZ7Vu4gwjzyyiQ-g)
 - [解读HTTP/2与HTTP/3 的新特性](https://mp.weixin.qq.com/s/XVaQH7vE4YOuZyYgS6aGQg)
