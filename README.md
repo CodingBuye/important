@@ -106,3 +106,7 @@
 ## GOLANG源码分析(写得非常好)
 
 - [golang源码分析](https://github.com/cch123/golang-notes)
+
+## 智力题
+
+- [25匹马，5个赛道，决出前n名](https://blog.csdn.net/niaolianjiulin/article/details/76125113)
