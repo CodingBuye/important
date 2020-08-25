@@ -22,6 +22,7 @@
 - [总结面试中 promise 相关题目的套路](https://mp.weixin.qq.com/s/j9NLGdZOvrAuSxb6RnHthw)
 - [AJAX原理及常见面试题](https://zhuanlan.zhihu.com/p/108686888)
 - [ES6教程](https://es6.ruanyifeng.com/)
+- [EventEmitter简单实现](https://blog.csdn.net/zdhanunity/article/details/98503421)
 - [CommonJS和ES Module的区别](https://es6.ruanyifeng.com/#docs/module-loader)
 - [ES2020 系列：新增基本数据类型 BigInt](https://juejin.im/post/5f1ad4ba6fb9a07e83521a69)
 - [js 循环引用的解析和解决方法](https://blog.csdn.net/Shauna_Wu/article/details/79938692)
