@@ -103,6 +103,7 @@
 ## 数据库
 
 - [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+- [最完整MySQL数据库面试题（2020最新版）](https://zhuanlan.zhihu.com/p/112857507)
 
 ## CPU缓存
 
