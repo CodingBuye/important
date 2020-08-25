@@ -26,6 +26,7 @@
 - [ES2020 系列：新增基本数据类型 BigInt](https://juejin.im/post/5f1ad4ba6fb9a07e83521a69)
 - [js 循环引用的解析和解决方法](https://blog.csdn.net/Shauna_Wu/article/details/79938692)
 - [弄懂浏览器Event Loop和node的Even Loop的区别](https://mp.weixin.qq.com/s/1jaqFlydi8qGws9hgO8XYg)
+- [setTimeout和setInterval](https://www.jianshu.com/p/fc9a08ca2c92)
 - [四种常见的 POST 提交数据方式 专题](https://www.cnblogs.com/softidea/p/5745369.html)
 
 ## NodeJS
