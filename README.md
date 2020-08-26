@@ -99,6 +99,7 @@
 - [「查缺补漏」巩固你的HTTP知识体系](https://mp.weixin.qq.com/s/-F_rePfdhU29wxsH6nWNuQ)
 - [面试官：HTTPS就安全了吗？会被抓包吗？我竟然回答不上来...](https://mp.weixin.qq.com/s/c2vKhW5_uFnyH_sBlRvMcw)
 - [《大前端进阶 安全》系列 全网最透彻HTTPS（面试常问）](https://mp.weixin.qq.com/s/uUGy94fp3x8khCTR0gZeJA)
+- [TCP协议可靠性数据传输实现原理分析](https://blog.csdn.net/chexlong/article/details/6123087)
 
 ## 数据库
 
