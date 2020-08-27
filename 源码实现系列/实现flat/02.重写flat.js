@@ -3,7 +3,7 @@ Array.prototype.fakeFlat = function(num=1) {
     let arr = this.concat();
     while(num > 0) {
         if(arr.some(x => Array.isArray(x))) {
-            arr = [].concat.apply([], arr);
+            arr = Array.prototype.concat.apply([], arr);
         } else {
             break;
         }
@@ -14,4 +14,4 @@ Array.prototype.fakeFlat = function(num=1) {
 
 // 测试
 let a = [1, 2, 3, [4, 5], [6, [7]]];
-console.log(a.fakeFlat(2));
+console.log(a.fakeFlat(1));
