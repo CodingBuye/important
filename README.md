@@ -83,6 +83,10 @@
 - [新的跨域策略：使用COOP、COEP为浏览器创建更安全的环境](https://mp.weixin.qq.com/s/CLPz6HmYIyfpYdccTGfRcg)
 - [前端常见跨域解决方案（全）](https://www.jianshu.com/p/ad799a7801e1)
 
+## 性能优化
+
+- [从 10 多秒到 1.05 秒！前端性能优化实践](https://mp.weixin.qq.com/s/cHfIXOyOJ5Ig1tE4tmFvAw)
+
 ## 操作系统
 
 - [程序员不得不了解的硬核知识大全](https://juejin.im/post/5e1e8ca2f265da3e11359d2a)
