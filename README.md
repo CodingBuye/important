@@ -48,6 +48,7 @@
 - [图解 Vue 异步更新原理](https://mp.weixin.qq.com/s/oyp9hgFbJszF94DihY_m_Q)
 - [Vue模板编译原理](https://mp.weixin.qq.com/s/3sFlZF8uFvXKgCdGHj5odQ)
 - [单项绑定和双向绑定的区别](https://www.cnblogs.com/hanguidong/p/9533036.html)
+- [完全理解Vue的渲染watcher、computed和user watcher](https://mp.weixin.qq.com/s/Hurz3XC0x-2VACxYfYAyRw)
 
 ## 安全
 
