@@ -1,4 +1,7 @@
 /*
+
+参考：https://zhuanlan.zhihu.com/p/86426949
+
 防抖函数的核心思路：
 - 当触发一个函数时，并不会立即执行这个函数，而是会延迟（通过定时器来延迟函数的执行）
 	- 如果在延迟时间内，有重新触发函数，那么取消上一次的函数执行（取消定时器）
@@ -19,29 +22,25 @@ function debounce(fn, wait, immediate) {
 		var args = arguments;
 		if(timer) clearTimeout(timer);
 
-		var later = function() {
-			timer = null;
-			if(!immediate) {
-				result = fn.apply(context, args);
-			}
-		}
-
 		if(immediate) {
 			var callNow = !timer;
-			timer = setTimeout(later, wait);
+			timer = setTimeout(function(){
+				timer = null;
+			}, wait);
 			if(callNow) {
-				result = fn.apply(this, arguments);
+				result = fn.apply(context, args);
 			}
 		} else {
-			timer = setTimeout(later, wait);
+			timer = setTimeout(function(){
+				result = func.apply(context, args);
+			}, wait);
 		}
 		return result;
 	}
 
 	debounced.cancel = function() {
-		if(timer) {
-			clearTimeout(timer);
-		}
+		if(timer) clearTimeout(timer);
+		timer = null;
 	}
 
 	return debounced;
