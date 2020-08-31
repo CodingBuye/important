@@ -3,10 +3,9 @@
 如果你想禁用第一次首先执行的话，传递{leading: false}，
 如果你想禁用最后一次执行的话，传递{trailing: false}
 */
-function throttle(func, wait, options) {
+function throttle(func, wait, options={}) {
 	var timer, result, context, args;
   var previous = 0; // 上一次调用
-  if(!options) options = {};
 
   var later = function() {
     previous = options.leading === false? 0 : Date.now();
