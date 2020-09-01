@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <h2 class="title">Hello World</h2>
+        <button class="change-btn">改变文本</button>
+    </div>
+    <script type="text/javascript">
+        // 1. 获取DOM节点
+        const title = document.getElementsByClassName("title")[0];
+        // 2. 获取数据
+        let message = "Hello World";
+        // 3. 将数据显示到title中
+        title.innerHTML = message;
+        // 4. 改变按钮内容
+        const btn = document.getElementsByClassName("change-btn")[0];
+        btn.addEventListener("click", e => {
+            message = "Hello React";
+            title.innerHTML = message;
+        })
+    </script>
+</body>
+</html>
