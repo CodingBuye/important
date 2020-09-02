@@ -4,3 +4,4 @@
 - [React系列二 - 核心JSX语法一](https://mp.weixin.qq.com/s/Ow3KeMuyBSh6sFavOx21_g)
 - [React系列二 - 核心JSX语法二](https://mp.weixin.qq.com/s/NlmtgWcvnW-IRJ_CcRsb5A)
 - [React系列三 - 阶段案例练习](https://mp.weixin.qq.com/s/Oh9N5pIwvLND1Err4w3ugg)
+- [React系列四 - React脚手架](https://mp.weixin.qq.com/s/TkjJAY-MX5pU9PrN_Erhkw)
