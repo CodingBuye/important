@@ -1,4 +1,8 @@
-var solveNQueens = function(n) {
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var totalNQueens = function(n) {
     const board = new Array(n);
     for(let i=0;i<n;i++){
         board[i] = new Array(n).fill(".");
@@ -7,16 +11,11 @@ var solveNQueens = function(n) {
     const cols = new Set(); // 列集，记录出现过皇后的列
     const main = new Set(); // 正对角线集
     const subs = new Set(); // 副对角线集
-    const res = [];
+    let res = 0;
 
     const helper = function(row) {
         if(row === n) {
-            const str = board.slice();
-            console.log(str)
-            for(let i=0;i<n;i++){
-                str[i] = str[i].join('');
-            }
-            res.push(str);
+            res+=1;
             return;
         }
 
@@ -37,4 +36,4 @@ var solveNQueens = function(n) {
 
     helper(0);
     return res;
-}
+};
