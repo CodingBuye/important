@@ -13,6 +13,7 @@
 
 ## JavaScript
 
+- [JS原型相关知识点](https://mp.weixin.qq.com/s/Ix8atSxrSy2OHCZzLvW9VA)
 - [JavaScript进阶-执行上下文(理解执行上下文一篇就够了)](https://juejin.im/post/6844903983438381069)
 - [JavaScript进阶-执行上下文栈和变量对象(一周一更)](https://juejin.im/post/6844904033308655623)
 - [再来40道this面试题酸爽继续(1.2w字用手整理)](https://juejin.im/post/6844904083707396109)
@@ -41,6 +42,7 @@
 - [《大前端进阶Node.js》系列 内存泄漏（一）](https://mp.weixin.qq.com/s/7d8KE7Iz8vFi8hA3YeXRUg)
 - [《大前端进阶 Node.js》系列 异步非阻塞（上）](https://mp.weixin.qq.com/s/gEhIa1OW_R61fb4RA6GE0g)
 - [《大前端进阶 Node.js》系列 异步非阻塞（下）](https://mp.weixin.qq.com/s/G_NMZ8MqFo9FTC0FLcOxCw)
+- [13 个 你不得不知道的 npm 快速开发技巧](https://mp.weixin.qq.com/s/gbVp4nNvgi4fug3dNR866g)
 
 ## Vue
 
@@ -90,6 +92,10 @@
 
 - [从 10 多秒到 1.05 秒！前端性能优化实践](https://mp.weixin.qq.com/s/cHfIXOyOJ5Ig1tE4tmFvAw)
 - [网站优化，这些工具你一定用得着](https://mp.weixin.qq.com/s/olrFz3nrgCPSbQff-L_SlQ)
+
+## Git相关
+
+- [交互式教程！带你深入理解 Git 原理](https://mp.weixin.qq.com/s/wUAoOLgy_FOq7Ok4jISHgQ)
 
 ## 操作系统
 
