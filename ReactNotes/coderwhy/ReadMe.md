@@ -8,3 +8,4 @@
 - [React系列五 - 组件化开发（一）](https://mp.weixin.qq.com/s/f6TR7WezefBs971wDIPVkg)
 - [React系列六 - 父子组件通信](https://mp.weixin.qq.com/s/33zRuvRGpMmIZ1_hr63sFA)
 - [React系列七 - 非父子组件通信](https://mp.weixin.qq.com/s/XRzop1WDCbXqW6Kzv3LxMA)
+- [React系列八 - 深入理解setState](https://mp.weixin.qq.com/s/He3DoAObZafpTN2Yp09N_g)
