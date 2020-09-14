@@ -7,3 +7,4 @@
 - [React系列四 - React脚手架](https://mp.weixin.qq.com/s/TkjJAY-MX5pU9PrN_Erhkw)
 - [React系列五 - 组件化开发（一）](https://mp.weixin.qq.com/s/f6TR7WezefBs971wDIPVkg)
 - [React系列六 - 父子组件通信](https://mp.weixin.qq.com/s/33zRuvRGpMmIZ1_hr63sFA)
+- [React系列七 - 非父子组件通信](https://mp.weixin.qq.com/s/XRzop1WDCbXqW6Kzv3LxMA)
