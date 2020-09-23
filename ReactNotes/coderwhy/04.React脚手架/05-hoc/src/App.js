@@ -30,7 +30,7 @@ class App extends PureComponent {
         return (
             <div>
                 <Home ref={this.homeTitleRef}/>
-                <button onClick={e => this.printInfo()}>打印ref</button>
+                <button onClick={ () => this.printInfo()}>打印ref</button>
                 <Modal>
                     <h2>我是标题</h2>
                 </Modal>
