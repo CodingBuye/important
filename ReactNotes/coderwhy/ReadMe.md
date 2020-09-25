@@ -13,3 +13,6 @@
 - [React系列十 - 高阶组件以及组件补充](https://mp.weixin.qq.com/s/Fgfu2kwLBJJOnGEXoKsvpg)
 - [React系列十一 - React中的CSS](https://mp.weixin.qq.com/s/oywTpNKEikMXn8QTBgITow)
 - [React系列十二 - AntDesign UI库](https://mp.weixin.qq.com/s/HlD1nYuAK-filEufc-3NDw)
+- [React系列十三 - axios库的使用](https://mp.weixin.qq.com/s/MTj0Or-QFmv9a7BugO6--A)
+- [React系列十四 - React过渡动画](https://mp.weixin.qq.com/s/14HneI7SpfrRHKtqgosIiA)
+- [React系列十五 - Redux(一)初见](https://mp.weixin.qq.com/s/Gwxc1z0HsWN4qWKlZQ8amg)
