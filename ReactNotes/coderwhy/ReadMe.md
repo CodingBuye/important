@@ -16,3 +16,4 @@
 - [React系列十三 - axios库的使用](https://mp.weixin.qq.com/s/MTj0Or-QFmv9a7BugO6--A)
 - [React系列十四 - React过渡动画](https://mp.weixin.qq.com/s/14HneI7SpfrRHKtqgosIiA)
 - [React系列十五 - Redux(一)初见](https://mp.weixin.qq.com/s/Gwxc1z0HsWN4qWKlZQ8amg)
+- [React系列十六 - Redux(二)react-redux](https://mp.weixin.qq.com/s/ruJyG-hFEQb0FpRcotagGw)
