@@ -8,26 +8,31 @@ var findMode = function(root) {
     let res = [];
     let pre = null;
     let currTimes = 1, maxTimes = 0;
-    inOrder(root, pre, currTimes, maxTimes, res);
+    searchBST(root);
     return res;
+
+    function searchBST(cur) {
+        if(!cur) return;
+        searchBST(cur.left);
+        if(pre === null) {
+            currTimes = 1;
+        } else if(pre.val === cur.val) {
+            currTimes += 1;
+        } else {
+            currTimes = 1;
+        }
+        pre = cur;
+        if(currTimes === maxTimes) {
+            res.push(cur.val);
+        } else if(currTimes > maxTimes) {
+            res = [];
+            res.push(cur.val);
+            maxTimes = currTimes;
+        }
+        searchBST(cur.right);
+    }
 }
 
-function inOrder(root, pre, currTimes, maxTimes, res) {
-    if(!root) return;
-    inOrder(root.left, pre, currTimes, maxTimes, res);
-    if(pre) {
-        currTimes = pre.val === root.val ? currTimes+1 : 1;
-    }
-    if(currTimes === maxTimes) {
-        res.push(root.val);
-    } else if(currTimes > maxTimes) {
-        res = [];
-        res.push(root.val);
-        maxTimes = currTimes;
-    }
-    pre = root;
-    inOrder(root.right, pre, currTimes, maxTimes, res);
-}
 
 let node1 = new TreeNode(1);
 let node2 = new TreeNode(2);
