@@ -1,10 +1,14 @@
 import {
     ADD_NUMBER,
-    SUB_NUMBER
+    SUB_NUMBER,
+    CHANGE_RECOMMEND,
+    CHANGE_BANNER
 } from './constants';
 
 const initialState = {
-    counter: 0
+    counter: 0,
+    banners: [],
+    recommends: []
 }
 
 function reducer(state=initialState, action) {
@@ -13,6 +17,10 @@ function reducer(state=initialState, action) {
             return {...state, counter: state.counter+action.num};
         case SUB_NUMBER:
             return {...state, counter: state.counter-action.num};
+        case CHANGE_BANNER:
+            return {...state, banners: action.banners};
+        case CHANGE_RECOMMEND:
+            return {...state, recommends: action.recommends};
         default:
             return state;
     }
