@@ -112,6 +112,7 @@
 - [HTTP Cookie](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies)
 - [解读HTTP/2与HTTP/3 的新特性](https://mp.weixin.qq.com/s/XVaQH7vE4YOuZyYgS6aGQg)
 - [你不知道的 WebSocket](https://mp.weixin.qq.com/s/hTGn-td7IH3iesf30dyHIw)
+- [零距离接触websocket](https://juejin.im/post/6876301731966713869)
 - [动画：深入浅出从根上理解 HTTP 缓存机制及原理！](https://mp.weixin.qq.com/s/M8Ew7xKStiGEnhGgCq5YPA)
 - [「查缺补漏」巩固你的HTTP知识体系](https://mp.weixin.qq.com/s/-F_rePfdhU29wxsH6nWNuQ)
 - [面试官：HTTPS就安全了吗？会被抓包吗？我竟然回答不上来...](https://mp.weixin.qq.com/s/c2vKhW5_uFnyH_sBlRvMcw)
