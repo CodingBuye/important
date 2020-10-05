@@ -123,6 +123,7 @@
 
 - [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
 - [最完整MySQL数据库面试题（2020最新版）](https://zhuanlan.zhihu.com/p/112857507)
+- [MySQL夺命连环13问！](https://mp.weixin.qq.com/s/UFb-hqxc_nSfSZBXeOfx8Q)
 
 ## CPU缓存
 
