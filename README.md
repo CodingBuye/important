@@ -54,6 +54,8 @@
 - [单项绑定和双向绑定的区别](https://www.cnblogs.com/hanguidong/p/9533036.html)
 - [完全理解Vue的渲染watcher、computed和user watcher](https://mp.weixin.qq.com/s/Hurz3XC0x-2VACxYfYAyRw)
 
+- [一篇文章上手Vue3中新增的API](https://mp.weixin.qq.com/s/Iwo-fvQTeUO5H8mhf1sRRw)
+
 ## 安全
 
 - [Web安全之CSRF实例解析](https://mp.weixin.qq.com/s/gifFtpk0Iw-0_5ccK83H8g)
