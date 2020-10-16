@@ -11,7 +11,7 @@ var getMinimumDifference = function(root) {
         }
         p = stack.pop();
         let cur = p.val;
-        if(curr-pre < minVal) {
+        if(cur-pre < minVal) {
             minVal = cur - pre;
         }
         pre = cur;
