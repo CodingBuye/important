@@ -143,3 +143,13 @@
 ## 智力题
 
 - [25匹马，5个赛道，决出前n名](https://blog.csdn.net/niaolianjiulin/article/details/76125113)
+
+# 课程
+
+## NodeJS系列
+
+- [Node.js系列一 - JavaScript运行原理](https://mp.weixin.qq.com/s/HxtBH81Lrakcv-_O3ib1bg)
+- [Node.js系列二 - Node基础知识](https://mp.weixin.qq.com/s/haUgLXdNQLDL6Zm9ivN1pA)
+- [Node.js系列三 - 彻底掌握前端模块化](https://mp.weixin.qq.com/s/6Cc5RMw3pAHEUM58KLB-MQ)
+- [Node.js系列四 - 常用的内置模块](https://mp.weixin.qq.com/s/72oEa_dQR4BLitN0ZrCMVQ)
+- [Node.js系列四 - npm你不知道的细节](https://mp.weixin.qq.com/s/nH0balmGu0gIssYoh84-AQ)
