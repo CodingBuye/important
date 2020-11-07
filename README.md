@@ -62,6 +62,7 @@
 - [Web安全之CSRF实例解析](https://mp.weixin.qq.com/s/gifFtpk0Iw-0_5ccK83H8g)
 - [web安全之XSS实例解析](https://mp.weixin.qq.com/s/wBrkNRQSFG7vYkQwcHkLrw)
 - [HTTPS是如何保证安全的](https://mp.weixin.qq.com/s/UA-NfJWImOLvoiMTDerBQA)
+- [为什么cookie会有httponly属性?真实案例解释XSS的三种攻击](https://mp.weixin.qq.com/s/QKFvptFIKBVqM0P7M5Ciww)
 
 ## 打包工具
 
