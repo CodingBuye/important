@@ -157,4 +157,5 @@
 - [Node.js系列二 - Node基础知识](https://mp.weixin.qq.com/s/haUgLXdNQLDL6Zm9ivN1pA)
 - [Node.js系列三 - 彻底掌握前端模块化](https://mp.weixin.qq.com/s/6Cc5RMw3pAHEUM58KLB-MQ)
 - [Node.js系列四 - 常用的内置模块](https://mp.weixin.qq.com/s/72oEa_dQR4BLitN0ZrCMVQ)
-- [Node.js系列四 - npm你不知道的细节](https://mp.weixin.qq.com/s/nH0balmGu0gIssYoh84-AQ)
+- [Node.js系列五 - npm你不知道的细节](https://mp.weixin.qq.com/s/nH0balmGu0gIssYoh84-AQ)
+- [Node.js系列六 - Buffer的使用](https://mp.weixin.qq.com/s/J8SiRAXFLV6LJAagavUf6Q)
