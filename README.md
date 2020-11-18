@@ -58,7 +58,7 @@
 - [Vue模板编译原理](https://mp.weixin.qq.com/s/3sFlZF8uFvXKgCdGHj5odQ)
 - [单项绑定和双向绑定的区别](https://www.cnblogs.com/hanguidong/p/9533036.html)
 - [完全理解Vue的渲染watcher、computed和user watcher](https://mp.weixin.qq.com/s/Hurz3XC0x-2VACxYfYAyRw)
-
+- [SPA 路由三部曲之核心原理](https://juejin.im/post/6895882310458343431)
 - [一篇文章上手Vue3中新增的API](https://mp.weixin.qq.com/s/Iwo-fvQTeUO5H8mhf1sRRw)
 
 ## 安全
