@@ -2,14 +2,9 @@
  * @param {number[]} nums
  */
 var NumArray = function(nums) {
-    this.preNums = new Array(nums.length+1);
-    this.preNums[-1] = 0;
+    this.preNums = new Array(nums.length+1).fill(0);
     nums.forEach((val, index) => {
-        if(index === 0) {
-            this.preNums[index] = val;
-        } else {
-            this.preNums[index] = this.preNums[index-1] + val;
-        }
+        this.preNums[index+1] = this.preNums[index] + val;
     })
 };
 
@@ -19,7 +14,7 @@ var NumArray = function(nums) {
  * @return {number}
  */
 NumArray.prototype.sumRange = function(i, j) {
-    return this.preNums[j] - this.preNums[i-1];
+    return this.preNums[j+1] - this.preNums[i];
 };
 
 /**
