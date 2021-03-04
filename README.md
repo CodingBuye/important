@@ -3,6 +3,7 @@
 ## 数据结构与算法
 
 - [树状数组](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/shu-zhuang-shu-zu-by-liweiwei1419/)
+- [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/dong-tai-gui-hua-she-ji-fang-fa-zhi-pai-you-xi-jia/)
 
 ## HTML
 
