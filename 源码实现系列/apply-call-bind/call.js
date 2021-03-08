@@ -1,21 +1,21 @@
-var person = {
-	fullName: function(txt, we) {
+const person = {
+	fullName: function (txt, we) {
 		console.log(txt + we + this.firstName + " " + this.lastName);
 
 	}
-}
+};
 
-var person1 = {
+const person1 = {
 	firstName: 'John',
 	lastName: 'Doe'
-}
+};
 
 person.fullName.call(person1, "Hello, ");
 
 Function.prototype.myCall = function(context) {
 	console.log(this);    // [Function: fullName]
 	console.log(context); // { firstName: 'John', lastName: 'Doe' }
-	
+
 	var uniqueID = Symbol();
 
 	context = context || window;
