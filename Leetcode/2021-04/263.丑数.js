@@ -1,17 +1,17 @@
 /**
- * @param {number} n
+ * @param {number} num
  * @return {boolean}
  */
 var isUgly = function(num) {
     if(num <= 0) return false;
     while(num % 2 === 0) {
-        num = parseInt(num / 2);
+        num = Math.floor(num/2);
     }
     while(num % 3 === 0) {
-        num = parseInt(num / 3);
+        num = Math.floor(num/3);
     }
     while(num % 5 === 0) {
-        num = parseInt(num / 5);
+        num = Math.floor(num/5);
     }
-    return num === 1 ? true : false;
+    return num === 1;
 };
