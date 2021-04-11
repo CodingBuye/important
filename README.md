@@ -23,6 +23,7 @@
 ## JavaScript
 
 - [JS原型相关知识点](https://mp.weixin.qq.com/s/Ix8atSxrSy2OHCZzLvW9VA)
+- [面试官问：typeof 可以判断哪些类型？instanceof 做了什么？null为什么被typeof错误的判断为object](https://mp.weixin.qq.com/s/Ji2pJEsq0mKszXSLbsY66Q)
 - [JavaScript进阶-执行上下文(理解执行上下文一篇就够了)](https://juejin.im/post/6844903983438381069)
 - [JavaScript进阶-执行上下文栈和变量对象(一周一更)](https://juejin.im/post/6844904033308655623)
 - [再来40道this面试题酸爽继续(1.2w字用手整理)](https://juejin.im/post/6844904083707396109)
