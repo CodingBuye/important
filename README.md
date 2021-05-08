@@ -46,10 +46,14 @@
 - [是谁动了我的 DOM？](https://mp.weixin.qq.com/s/a2tuqQOmkvtHysOuBXmMdg)
 
 ## 小程序
+
+### 组件封装
 - [组件封装的思考](https://developers.weixin.qq.com/community/develop/article/doc/000ea0162bce70c8c62a40de156413)
+- [(干货)微信小程序组件封装](https://juejin.cn/post/6844903606953459719)
 
 ## NodeJS
 
+### 面试必知
 - [《吊打面试官》系列 Node.js 必知必会必问！！](https://mp.weixin.qq.com/s/94wxm57cd3fS96gixVAxMA)
 - [《吊打面试官》系列 Node.js 全栈秒杀系统](https://mp.weixin.qq.com/s/uWeAsJ-P253je15A49uKIQ)
 - [《吊打面试官》系列 深入Node.js多进程底层原理（字节跳动被问）](https://mp.weixin.qq.com/s/wBiBZcdNobDoZbk-cLLyfw)
@@ -57,6 +61,15 @@
 - [《大前端进阶 Node.js》系列 异步非阻塞（上）](https://mp.weixin.qq.com/s/gEhIa1OW_R61fb4RA6GE0g)
 - [《大前端进阶 Node.js》系列 异步非阻塞（下）](https://mp.weixin.qq.com/s/G_NMZ8MqFo9FTC0FLcOxCw)
 - [13 个 你不得不知道的 npm 快速开发技巧](https://mp.weixin.qq.com/s/gbVp4nNvgi4fug3dNR866g)
+
+### 课程
+- [Node.js系列一 - JavaScript运行原理](https://mp.weixin.qq.com/s/HxtBH81Lrakcv-_O3ib1bg)
+- [Node.js系列二 - Node基础知识](https://mp.weixin.qq.com/s/haUgLXdNQLDL6Zm9ivN1pA)
+- [Node.js系列三 - 彻底掌握前端模块化](https://mp.weixin.qq.com/s/6Cc5RMw3pAHEUM58KLB-MQ)
+- [Node.js系列四 - 常用的内置模块](https://mp.weixin.qq.com/s/72oEa_dQR4BLitN0ZrCMVQ)
+- [Node.js系列五 - npm你不知道的细节](https://mp.weixin.qq.com/s/nH0balmGu0gIssYoh84-AQ)
+- [Node.js系列六 - Buffer的使用](https://mp.weixin.qq.com/s/J8SiRAXFLV6LJAagavUf6Q)
+
 
 ## Vue
 
@@ -154,17 +167,7 @@
 
 - [golang源码分析](https://github.com/cch123/golang-notes)
 
-## 智力题
+## 其他
+### 智力题
 
 - [25匹马，5个赛道，决出前n名](https://blog.csdn.net/niaolianjiulin/article/details/76125113)
-
-# 课程
-
-## NodeJS系列
-
-- [Node.js系列一 - JavaScript运行原理](https://mp.weixin.qq.com/s/HxtBH81Lrakcv-_O3ib1bg)
-- [Node.js系列二 - Node基础知识](https://mp.weixin.qq.com/s/haUgLXdNQLDL6Zm9ivN1pA)
-- [Node.js系列三 - 彻底掌握前端模块化](https://mp.weixin.qq.com/s/6Cc5RMw3pAHEUM58KLB-MQ)
-- [Node.js系列四 - 常用的内置模块](https://mp.weixin.qq.com/s/72oEa_dQR4BLitN0ZrCMVQ)
-- [Node.js系列五 - npm你不知道的细节](https://mp.weixin.qq.com/s/nH0balmGu0gIssYoh84-AQ)
-- [Node.js系列六 - Buffer的使用](https://mp.weixin.qq.com/s/J8SiRAXFLV6LJAagavUf6Q)
