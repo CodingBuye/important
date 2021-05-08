@@ -51,6 +51,9 @@
 - [组件封装的思考](https://developers.weixin.qq.com/community/develop/article/doc/000ea0162bce70c8c62a40de156413)
 - [(干货)微信小程序组件封装](https://juejin.cn/post/6844903606953459719)
 
+### 杂谈
+- [为什么小程序分享至朋友圈打开是“单页模式”？](https://baijiahao.baidu.com/s?id=1672180965770425376&wfr=spider&for=pc)
+
 ## NodeJS
 
 ### 面试必知
