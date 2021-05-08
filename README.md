@@ -45,6 +45,9 @@
 - [如何实现文件下载](https://mp.weixin.qq.com/s/Lqo8kXS-WLmRLN1dh97gTw)
 - [是谁动了我的 DOM？](https://mp.weixin.qq.com/s/a2tuqQOmkvtHysOuBXmMdg)
 
+## 小程序
+- [组件封装的思考](https://developers.weixin.qq.com/community/develop/article/doc/000ea0162bce70c8c62a40de156413)
+
 ## NodeJS
 
 - [《吊打面试官》系列 Node.js 必知必会必问！！](https://mp.weixin.qq.com/s/94wxm57cd3fS96gixVAxMA)
