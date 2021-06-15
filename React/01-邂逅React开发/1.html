@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生案例实现</title>
+</head>
+<body>
+    <div class="app">
+        <h2 class="title">hello world</h2>
+        <button class="change-btn">改变文本</button>
+    </div>
+
+
+<script type="text/javascript">
+    const titleEle = document.getElementsByClassName('title')[0];
+    let message = "hello react";
+    titleEle.innerHTML = message;
+
+    const btnEle = document.getElementsByClassName("change-btn")[0];
+    btnEle.addEventListener('click', e => {
+        message = 'hello';
+        titleEle.innerHTML = message;
+    })
+</script>
+</body>
+</html>
