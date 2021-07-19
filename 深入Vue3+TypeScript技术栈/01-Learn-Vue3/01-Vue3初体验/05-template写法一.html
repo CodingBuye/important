@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script src="../source-code/vue.global.js"></script>
+  <script type="text/x-handlebars-template" id="tmpl">
+    <h2>{{counter}}</h2>
+    <button @click="increment">+1</button>
+    <button @click="decrement">-1</button>
+  </script>
+  <script>
+    Vue.createApp({
+      // 传入的template以#开头，它将被用作querySelector，
+      // 并且使用匹配元素的innerHTML作为模板字符串
+      template: '#tmpl',
+      data() {
+        return {
+          counter: 100
+        }
+      },
+      methods: {
+        increment() {
+          this.counter += 1;
+        },
+        decrement() {
+          this.counter -= 1;
+        }
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>

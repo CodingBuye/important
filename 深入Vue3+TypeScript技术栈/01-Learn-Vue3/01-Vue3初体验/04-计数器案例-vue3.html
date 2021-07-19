@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app"></div>
+
+
+
+  <script src="../source-code/vue.global.js"></script>
+  <script>
+    Vue.createApp({
+      template: `
+        <h2>{{counter}}</h2>
+        <button @click="increment">+1</button>
+        <button @click="decrement">-1</button>`,
+      data() {
+        return {
+          counter: 100
+        }
+      },
+      methods: {
+        increment() {
+          this.counter += 1;
+        },
+        decrement() {
+          this.counter -= 1;
+        }
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>
